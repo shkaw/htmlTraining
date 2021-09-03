@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+/*親要素のPaddingで子要素のマージンは意味なくなる
+*/
+
+
 #container{
 	text-align: center;
 }
