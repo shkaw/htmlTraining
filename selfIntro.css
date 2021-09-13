@@ -1,3 +1,223 @@
 @charset "UTF-8";
 
+header{
+	padding: 25px 15px;
+	color: #29abe2;
+	font-family: serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+main{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #29abe2;
+	padding: 40px 15px;
+}
+
+.container{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	color: #666666;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+}
+
+li:not(:last-child){
+	margin-right: 20px;
+}
+
+table {
+   table-layout: fixed;
+   width: 100%;
+   text-align: center;
+}
+
+article{
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 30px;
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	color: #29abe2;
+	font-family: sans-serif;
+	font-weight: nomal;
+	text-align: center;
+}
+
+p{
+	line-height: 2;
+}
+
+
+footer{
+	background-color: #6ac4eb;
+	padding: 25px 15px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* サブメニュー */
+aside{
+	background-color: #6ac4eb;
+	padding: 0;
+	margin-top: 0;
+}
+
+.autopadd{
+	 width:300px;
+	 font-size:25px;
+	 table-layout:auto;
+	 margin: 3px auto;
+}
+
+.autopadd td{
+	 padding:10px;
+	 -moz-text-align-last: justify;
+	 text-align-last: justify;
+	 text-justify:inter-ideograph;
+	 border:none;
+}
+
+.profile img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+.profile figure{
+	text-align: center;
+}
+
+.profile p{
+	font-size: 14px;
+	text-align: center;
+}
+
+/* likeneko */
+
+.misima{
+	border-collapse: collapse;
+}
+
+.misima th,td{
+	border: solid 1px #cccccc;
+	padding: 18px;
+}
+
+.misima th{
+	width: 4em;
+	text-align: left;
+	background-color: #135977;
+	color: #ffffff;
+}
+
+.misima td{
+	text-align: left;
+	background-color: #e8eef9;
+}
+
+.angry{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.poem{
+	clear: left;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.love td{
+	border:none;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+/* nakahara */
+.l-grid{
+	overflow: hidden;
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 20px;
+	text-align: right;
+}
+
+.l-grid-item{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+/* whatweb */
+.whatweb{
+	border-collapse: collapse;
+}
+
+.whatweb th,td{
+	border: solid 1px #cccccc;
+	padding: 18px;
+}
+
+.whatweb th{
+	width: 4em;
+	text-align: left;
+	background-color: #135977;
+	color: #ffffff;
+}
+
+.whatweb td{
+	text-align: left;
+	background-color: #e8eef9;
+}
+
+
+/* quiry */
+
+input,textarea{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+textarea{
+	height: 120px;
+}
+
+input[type="submit"]{
+	background-color: #ffaa00;
+	border: none;
+	-webkit-appearance: none;
+}
 
