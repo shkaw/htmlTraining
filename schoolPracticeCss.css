@@ -2,8 +2,8 @@
    display: inline-block;
 　　　　　　vertical-align: middle;
    color: #FFF;
-   width:100px;
-   height:100px;
+   width:300px;
+   height:300px;
    background-color: red;
 }
  
@@ -11,16 +11,16 @@
   display: inline-block;
 　　　　vertical-align: middle;
   color: #FFF;
-  width:100px;
-  height:100px;
+  width:300px;
+  height:300px;
   background-color: blue;
 }
  
 .box_3{
 　　 display: inline-block;
-　　　　vertical-align: middle;
+　　　　vertical-align: middle;	
   color: #FFF;
-  width:100px;
-  height:100px;
+  width:300px;
+  height:300px;
   background-color: green;
 }
