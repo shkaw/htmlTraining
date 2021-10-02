@@ -4,3 +4,9 @@ body{
 	font-family: sans-serif;
 }
 
+time {
+	color: #666666;
+	margin-bottom: 15px;
+	display: block;
+}
+
