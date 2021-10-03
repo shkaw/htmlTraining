@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+header {
+	color: #29abe2;
+	font-weight: bold; 
+}
+
 body{
 	font-family: sans-serif;
 }
