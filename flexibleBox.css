@@ -29,10 +29,13 @@ ul {
 	padding: 0;
 	color: #666666;
 	font-size: 12px;
-
+	<!-- ボックスそのものの位置調整 -->
+	justify-content: center;
 }
 
 
 nav {
 	display: flex;
 }
+
+
