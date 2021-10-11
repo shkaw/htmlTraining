@@ -7,7 +7,7 @@ header {
 }
 
 body{
-	font-family: sans-serif;
+	font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 /*  webkitはブラウザでCSSの動きをしてくれる機能 */
