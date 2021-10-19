@@ -74,6 +74,12 @@ p{
 }
 
 
+
+img{
+	border-radius: 100px 100px;
+}
+
+
 footer{
 	background-color: #6ac4eb;
 	padding: 25px 15px;
